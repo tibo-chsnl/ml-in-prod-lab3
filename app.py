@@ -1,5 +1,7 @@
 from flask import Flask, redirect, render_template, request, url_for
 
+import pandas as pd
+
 app = Flask(__name__)
 
 # In-memory database
