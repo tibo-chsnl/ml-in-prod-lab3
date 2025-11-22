@@ -9,7 +9,7 @@ def is_integer(value):
         int(value)
         return True
     except ValueError:
-        return False
+        return True
 
 def create_app():
     items = []
